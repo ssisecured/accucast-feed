@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T00:14:53-04:00",
+  "generatedAt": "2026-07-17T00:45:00-04:00",
   "stations": [
     {
       "id": "station-1",
@@ -995,8 +995,8 @@
       "stationId": "station-1",
       "provider": "Open-Meteo",
       "forecastDate": "2026-07-18",
-      "issuedAt": "2026-07-17T04:13:58+00:00",
-      "capturedAt": "2026-07-17T04:13:58+00:00",
+      "issuedAt": "2026-07-17T04:43:59+00:00",
+      "capturedAt": "2026-07-17T04:43:59+00:00",
       "highF": 95.3,
       "lowF": 73.0,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -1005,8 +1005,8 @@
       "stationId": "station-1",
       "provider": "Open-Meteo",
       "forecastDate": "2026-07-19",
-      "issuedAt": "2026-07-17T04:13:58+00:00",
-      "capturedAt": "2026-07-17T04:13:58+00:00",
+      "issuedAt": "2026-07-17T04:43:59+00:00",
+      "capturedAt": "2026-07-17T04:43:59+00:00",
       "highF": 98.5,
       "lowF": 73.1,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -1015,8 +1015,8 @@
       "stationId": "station-1",
       "provider": "Open-Meteo",
       "forecastDate": "2026-07-20",
-      "issuedAt": "2026-07-17T04:13:58+00:00",
-      "capturedAt": "2026-07-17T04:13:58+00:00",
+      "issuedAt": "2026-07-17T04:43:59+00:00",
+      "capturedAt": "2026-07-17T04:43:59+00:00",
       "highF": 94.0,
       "lowF": 71.1,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -1025,8 +1025,8 @@
       "stationId": "station-1",
       "provider": "Open-Meteo",
       "forecastDate": "2026-07-21",
-      "issuedAt": "2026-07-17T04:13:58+00:00",
-      "capturedAt": "2026-07-17T04:13:58+00:00",
+      "issuedAt": "2026-07-17T04:43:59+00:00",
+      "capturedAt": "2026-07-17T04:43:59+00:00",
       "highF": 98.0,
       "lowF": 71.9,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -1035,8 +1035,8 @@
       "stationId": "station-1",
       "provider": "Open-Meteo",
       "forecastDate": "2026-07-22",
-      "issuedAt": "2026-07-17T04:13:58+00:00",
-      "capturedAt": "2026-07-17T04:13:58+00:00",
+      "issuedAt": "2026-07-17T04:43:59+00:00",
+      "capturedAt": "2026-07-17T04:43:59+00:00",
       "highF": 102.0,
       "lowF": 72.4,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -1045,10 +1045,20 @@
       "stationId": "station-1",
       "provider": "Open-Meteo",
       "forecastDate": "2026-07-23",
-      "issuedAt": "2026-07-17T04:13:58+00:00",
-      "capturedAt": "2026-07-17T04:13:58+00:00",
+      "issuedAt": "2026-07-17T04:43:59+00:00",
+      "capturedAt": "2026-07-17T04:43:59+00:00",
       "highF": 89.9,
       "lowF": 67.4,
+      "summary": "Open-Meteo baseline from existing forecast accuracy store"
+    },
+    {
+      "stationId": "station-1",
+      "provider": "Open-Meteo",
+      "forecastDate": "2026-07-24",
+      "issuedAt": "2026-07-17T04:43:59+00:00",
+      "capturedAt": "2026-07-17T04:43:59+00:00",
+      "highF": 87.4,
+      "lowF": 66.6,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
     },
     {
@@ -1575,8 +1585,8 @@
       "stationId": "station-2",
       "provider": "Open-Meteo",
       "forecastDate": "2026-07-18",
-      "issuedAt": "2026-07-17T04:13:58+00:00",
-      "capturedAt": "2026-07-17T04:13:58+00:00",
+      "issuedAt": "2026-07-17T04:43:58+00:00",
+      "capturedAt": "2026-07-17T04:43:58+00:00",
       "highF": 91.3,
       "lowF": 72.3,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -1585,8 +1595,8 @@
       "stationId": "station-2",
       "provider": "Open-Meteo",
       "forecastDate": "2026-07-19",
-      "issuedAt": "2026-07-17T04:13:58+00:00",
-      "capturedAt": "2026-07-17T04:13:58+00:00",
+      "issuedAt": "2026-07-17T04:43:58+00:00",
+      "capturedAt": "2026-07-17T04:43:58+00:00",
       "highF": 95.1,
       "lowF": 73.3,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -1595,8 +1605,8 @@
       "stationId": "station-2",
       "provider": "Open-Meteo",
       "forecastDate": "2026-07-20",
-      "issuedAt": "2026-07-17T04:13:58+00:00",
-      "capturedAt": "2026-07-17T04:13:58+00:00",
+      "issuedAt": "2026-07-17T04:43:58+00:00",
+      "capturedAt": "2026-07-17T04:43:58+00:00",
       "highF": 98.3,
       "lowF": 74.9,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -1605,8 +1615,8 @@
       "stationId": "station-2",
       "provider": "Open-Meteo",
       "forecastDate": "2026-07-21",
-      "issuedAt": "2026-07-17T04:13:58+00:00",
-      "capturedAt": "2026-07-17T04:13:58+00:00",
+      "issuedAt": "2026-07-17T04:43:58+00:00",
+      "capturedAt": "2026-07-17T04:43:58+00:00",
       "highF": 99.1,
       "lowF": 76.4,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -1615,8 +1625,8 @@
       "stationId": "station-2",
       "provider": "Open-Meteo",
       "forecastDate": "2026-07-22",
-      "issuedAt": "2026-07-17T04:13:58+00:00",
-      "capturedAt": "2026-07-17T04:13:58+00:00",
+      "issuedAt": "2026-07-17T04:43:58+00:00",
+      "capturedAt": "2026-07-17T04:43:58+00:00",
       "highF": 100.9,
       "lowF": 79.7,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -1625,10 +1635,20 @@
       "stationId": "station-2",
       "provider": "Open-Meteo",
       "forecastDate": "2026-07-23",
-      "issuedAt": "2026-07-17T04:13:58+00:00",
-      "capturedAt": "2026-07-17T04:13:58+00:00",
+      "issuedAt": "2026-07-17T04:43:58+00:00",
+      "capturedAt": "2026-07-17T04:43:58+00:00",
       "highF": 92.0,
       "lowF": 72.8,
+      "summary": "Open-Meteo baseline from existing forecast accuracy store"
+    },
+    {
+      "stationId": "station-2",
+      "provider": "Open-Meteo",
+      "forecastDate": "2026-07-24",
+      "issuedAt": "2026-07-17T04:43:58+00:00",
+      "capturedAt": "2026-07-17T04:43:58+00:00",
+      "highF": 86.6,
+      "lowF": 70.4,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
     }
   ]

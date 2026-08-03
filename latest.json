@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T23:35:39-04:00",
+  "generatedAt": "2026-08-03T00:05:44-04:00",
   "stations": [
     {
       "id": "station-1",
@@ -19,14 +19,6 @@
     }
   ],
   "observations": [
-    {
-      "stationId": "station-2",
-      "date": "2026-07-04",
-      "highF": 93.9,
-      "lowF": 70.5,
-      "highObservedAt": "2026-07-04T21:30:00+00:00",
-      "lowObservedAt": "2026-07-05T03:55:00+00:00"
-    },
     {
       "stationId": "station-2",
       "date": "2026-07-05",
@@ -252,12 +244,12 @@
       "lowObservedAt": "2026-08-01T11:40:00+00:00"
     },
     {
-      "stationId": "station-1",
-      "date": "2026-07-04",
-      "highF": 97.9,
-      "lowF": 75.9,
-      "highObservedAt": "2026-07-04T22:35:00+00:00",
-      "lowObservedAt": "2026-07-04T10:35:00+00:00"
+      "stationId": "station-2",
+      "date": "2026-08-02",
+      "highF": 88.9,
+      "lowF": 73.9,
+      "highObservedAt": "2026-08-02T18:40:00+00:00",
+      "lowObservedAt": "2026-08-03T03:45:00+00:00"
     },
     {
       "stationId": "station-1",
@@ -482,6 +474,14 @@
       "lowF": 70.2,
       "highObservedAt": "2026-08-01T22:50:00+00:00",
       "lowObservedAt": "2026-08-01T09:00:00+00:00"
+    },
+    {
+      "stationId": "station-1",
+      "date": "2026-08-02",
+      "highF": 86.7,
+      "lowF": 71.8,
+      "highObservedAt": "2026-08-02T19:33:29+00:00",
+      "lowObservedAt": "2026-08-02T20:50:00+00:00"
     }
   ],
   "forecasts": [
@@ -1209,8 +1209,8 @@
       "stationId": "station-1",
       "provider": "Tempest",
       "forecastDate": "2026-08-03",
-      "issuedAt": "2026-08-03T03:00:02+00:00",
-      "capturedAt": "2026-08-03T03:00:02+00:00",
+      "issuedAt": "2026-08-03T03:30:02+00:00",
+      "capturedAt": "2026-08-03T03:30:02+00:00",
       "highF": 87.0,
       "lowF": 70.0,
       "summary": "Tempest baseline from existing forecast accuracy store"
@@ -1219,8 +1219,8 @@
       "stationId": "station-1",
       "provider": "Tempest",
       "forecastDate": "2026-08-04",
-      "issuedAt": "2026-08-03T03:00:02+00:00",
-      "capturedAt": "2026-08-03T03:00:02+00:00",
+      "issuedAt": "2026-08-03T03:30:02+00:00",
+      "capturedAt": "2026-08-03T03:30:02+00:00",
       "highF": 83.0,
       "lowF": 71.0,
       "summary": "Tempest baseline from existing forecast accuracy store"
@@ -1229,8 +1229,8 @@
       "stationId": "station-1",
       "provider": "Tempest",
       "forecastDate": "2026-08-05",
-      "issuedAt": "2026-08-03T03:00:02+00:00",
-      "capturedAt": "2026-08-03T03:00:02+00:00",
+      "issuedAt": "2026-08-03T03:30:02+00:00",
+      "capturedAt": "2026-08-03T03:30:02+00:00",
       "highF": 83.0,
       "lowF": 71.0,
       "summary": "Tempest baseline from existing forecast accuracy store"
@@ -1239,8 +1239,8 @@
       "stationId": "station-1",
       "provider": "Tempest",
       "forecastDate": "2026-08-06",
-      "issuedAt": "2026-08-03T03:00:02+00:00",
-      "capturedAt": "2026-08-03T03:00:02+00:00",
+      "issuedAt": "2026-08-03T03:30:02+00:00",
+      "capturedAt": "2026-08-03T03:30:02+00:00",
       "highF": 86.0,
       "lowF": 71.0,
       "summary": "Tempest baseline from existing forecast accuracy store"
@@ -1249,8 +1249,8 @@
       "stationId": "station-1",
       "provider": "Tempest",
       "forecastDate": "2026-08-07",
-      "issuedAt": "2026-08-03T03:00:02+00:00",
-      "capturedAt": "2026-08-03T03:00:02+00:00",
+      "issuedAt": "2026-08-03T03:30:02+00:00",
+      "capturedAt": "2026-08-03T03:30:02+00:00",
       "highF": 85.0,
       "lowF": 71.0,
       "summary": "Tempest baseline from existing forecast accuracy store"
@@ -1259,8 +1259,8 @@
       "stationId": "station-1",
       "provider": "Tempest",
       "forecastDate": "2026-08-08",
-      "issuedAt": "2026-08-03T03:00:02+00:00",
-      "capturedAt": "2026-08-03T03:00:02+00:00",
+      "issuedAt": "2026-08-03T03:30:02+00:00",
+      "capturedAt": "2026-08-03T03:30:02+00:00",
       "highF": 85.0,
       "lowF": 71.0,
       "summary": "Tempest baseline from existing forecast accuracy store"
@@ -1269,9 +1269,19 @@
       "stationId": "station-1",
       "provider": "Tempest",
       "forecastDate": "2026-08-09",
-      "issuedAt": "2026-08-03T03:00:02+00:00",
-      "capturedAt": "2026-08-03T03:00:02+00:00",
+      "issuedAt": "2026-08-03T03:30:02+00:00",
+      "capturedAt": "2026-08-03T03:30:02+00:00",
       "highF": 85.0,
+      "lowF": 71.0,
+      "summary": "Tempest baseline from existing forecast accuracy store"
+    },
+    {
+      "stationId": "station-1",
+      "provider": "Tempest",
+      "forecastDate": "2026-08-10",
+      "issuedAt": "2026-08-03T03:30:02+00:00",
+      "capturedAt": "2026-08-03T03:30:02+00:00",
+      "highF": 87.0,
       "lowF": 71.0,
       "summary": "Tempest baseline from existing forecast accuracy store"
     },
@@ -1639,18 +1649,18 @@
       "stationId": "station-1",
       "provider": "Open-Meteo",
       "forecastDate": "2026-08-03",
-      "issuedAt": "2026-08-03T03:30:02+00:00",
-      "capturedAt": "2026-08-03T03:30:02+00:00",
+      "issuedAt": "2026-08-03T03:45:02+00:00",
+      "capturedAt": "2026-08-03T03:45:02+00:00",
       "highF": 85.0,
-      "lowF": 68.7,
+      "lowF": 69.5,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
     },
     {
       "stationId": "station-1",
       "provider": "Open-Meteo",
       "forecastDate": "2026-08-04",
-      "issuedAt": "2026-08-03T03:30:02+00:00",
-      "capturedAt": "2026-08-03T03:30:02+00:00",
+      "issuedAt": "2026-08-03T04:00:02+00:00",
+      "capturedAt": "2026-08-03T04:00:02+00:00",
       "highF": 82.6,
       "lowF": 69.8,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -1659,8 +1669,8 @@
       "stationId": "station-1",
       "provider": "Open-Meteo",
       "forecastDate": "2026-08-05",
-      "issuedAt": "2026-08-03T03:30:02+00:00",
-      "capturedAt": "2026-08-03T03:30:02+00:00",
+      "issuedAt": "2026-08-03T04:00:02+00:00",
+      "capturedAt": "2026-08-03T04:00:02+00:00",
       "highF": 91.1,
       "lowF": 69.0,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -1669,8 +1679,8 @@
       "stationId": "station-1",
       "provider": "Open-Meteo",
       "forecastDate": "2026-08-06",
-      "issuedAt": "2026-08-03T03:30:02+00:00",
-      "capturedAt": "2026-08-03T03:30:02+00:00",
+      "issuedAt": "2026-08-03T04:00:02+00:00",
+      "capturedAt": "2026-08-03T04:00:02+00:00",
       "highF": 93.5,
       "lowF": 69.3,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -1679,8 +1689,8 @@
       "stationId": "station-1",
       "provider": "Open-Meteo",
       "forecastDate": "2026-08-07",
-      "issuedAt": "2026-08-03T03:30:02+00:00",
-      "capturedAt": "2026-08-03T03:30:02+00:00",
+      "issuedAt": "2026-08-03T04:00:02+00:00",
+      "capturedAt": "2026-08-03T04:00:02+00:00",
       "highF": 93.4,
       "lowF": 69.2,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -1689,8 +1699,8 @@
       "stationId": "station-1",
       "provider": "Open-Meteo",
       "forecastDate": "2026-08-08",
-      "issuedAt": "2026-08-03T03:30:02+00:00",
-      "capturedAt": "2026-08-03T03:30:02+00:00",
+      "issuedAt": "2026-08-03T04:00:02+00:00",
+      "capturedAt": "2026-08-03T04:00:02+00:00",
       "highF": 94.4,
       "lowF": 71.6,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -1699,8 +1709,8 @@
       "stationId": "station-1",
       "provider": "Open-Meteo",
       "forecastDate": "2026-08-09",
-      "issuedAt": "2026-08-03T03:30:02+00:00",
-      "capturedAt": "2026-08-03T03:30:02+00:00",
+      "issuedAt": "2026-08-03T04:00:02+00:00",
+      "capturedAt": "2026-08-03T04:00:02+00:00",
       "highF": 96.0,
       "lowF": 71.2,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -2559,18 +2569,18 @@
       "stationId": "station-2",
       "provider": "Open-Meteo",
       "forecastDate": "2026-08-03",
-      "issuedAt": "2026-08-03T03:30:02+00:00",
-      "capturedAt": "2026-08-03T03:30:02+00:00",
-      "highF": 81.3,
-      "lowF": 68.5,
+      "issuedAt": "2026-08-03T03:45:02+00:00",
+      "capturedAt": "2026-08-03T03:45:02+00:00",
+      "highF": 83.8,
+      "lowF": 68.2,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
     },
     {
       "stationId": "station-2",
       "provider": "Open-Meteo",
       "forecastDate": "2026-08-04",
-      "issuedAt": "2026-08-03T03:30:02+00:00",
-      "capturedAt": "2026-08-03T03:30:02+00:00",
+      "issuedAt": "2026-08-03T04:00:02+00:00",
+      "capturedAt": "2026-08-03T04:00:02+00:00",
       "highF": 83.9,
       "lowF": 67.4,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -2579,8 +2589,8 @@
       "stationId": "station-2",
       "provider": "Open-Meteo",
       "forecastDate": "2026-08-05",
-      "issuedAt": "2026-08-03T03:30:02+00:00",
-      "capturedAt": "2026-08-03T03:30:02+00:00",
+      "issuedAt": "2026-08-03T04:00:02+00:00",
+      "capturedAt": "2026-08-03T04:00:02+00:00",
       "highF": 89.9,
       "lowF": 70.8,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -2589,8 +2599,8 @@
       "stationId": "station-2",
       "provider": "Open-Meteo",
       "forecastDate": "2026-08-06",
-      "issuedAt": "2026-08-03T03:30:02+00:00",
-      "capturedAt": "2026-08-03T03:30:02+00:00",
+      "issuedAt": "2026-08-03T04:00:02+00:00",
+      "capturedAt": "2026-08-03T04:00:02+00:00",
       "highF": 92.8,
       "lowF": 72.2,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -2599,8 +2609,8 @@
       "stationId": "station-2",
       "provider": "Open-Meteo",
       "forecastDate": "2026-08-07",
-      "issuedAt": "2026-08-03T03:30:02+00:00",
-      "capturedAt": "2026-08-03T03:30:02+00:00",
+      "issuedAt": "2026-08-03T04:00:02+00:00",
+      "capturedAt": "2026-08-03T04:00:02+00:00",
       "highF": 92.9,
       "lowF": 71.9,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -2609,8 +2619,8 @@
       "stationId": "station-2",
       "provider": "Open-Meteo",
       "forecastDate": "2026-08-08",
-      "issuedAt": "2026-08-03T03:30:02+00:00",
-      "capturedAt": "2026-08-03T03:30:02+00:00",
+      "issuedAt": "2026-08-03T04:00:02+00:00",
+      "capturedAt": "2026-08-03T04:00:02+00:00",
       "highF": 91.7,
       "lowF": 76.6,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
@@ -2619,8 +2629,8 @@
       "stationId": "station-2",
       "provider": "Open-Meteo",
       "forecastDate": "2026-08-09",
-      "issuedAt": "2026-08-03T03:30:02+00:00",
-      "capturedAt": "2026-08-03T03:30:02+00:00",
+      "issuedAt": "2026-08-03T04:00:02+00:00",
+      "capturedAt": "2026-08-03T04:00:02+00:00",
       "highF": 97.3,
       "lowF": 74.0,
       "summary": "Open-Meteo baseline from existing forecast accuracy store"
